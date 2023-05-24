@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import ListItem, {ListItemT} from './ListItem.vue';
+    import ListItem, {ListItemT} from '../composition/ListItem.vue';
     import { onMounted, ref, watchEffect } from 'vue';
     
     interface postT extends ListItemT {

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-  import List from './components/List.vue';
+  import CompositionList from './components/composition/List.vue';
+  import OptionsList from './components/options/List.vue';
 </script> 
 
 <template>
@@ -7,6 +8,6 @@
     <h1>This is the list of posts</h1>
   </header>
   <main>
-    <List />
+    <OptionsList/>
   </main>
 </template>
